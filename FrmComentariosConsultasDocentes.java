@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author GermyMc
+ * @author JJ.NAVARRETE
  */
 public class FrmComentariosConsultasDocentes extends javax.swing.JFrame {
 
