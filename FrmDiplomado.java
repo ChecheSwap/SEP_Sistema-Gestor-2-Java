@@ -7,7 +7,7 @@ package sep;
 
 /**
  *
- * @author GermyMc
+ *@author JJ.NAVARRETE
  */
 public class FrmDiplomado extends javax.swing.JFrame {
 
