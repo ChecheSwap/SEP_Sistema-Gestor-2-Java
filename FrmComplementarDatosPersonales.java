@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author GermyMc
+ *@author JJ.NAVARRETE
  */
 public class FrmComplementarDatosPersonales extends javax.swing.JFrame {
 
