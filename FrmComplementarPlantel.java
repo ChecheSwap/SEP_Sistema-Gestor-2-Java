@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author J.JNavarrete
+ *@author JJ.NAVARRETE
  */
 public class FrmComplementarPlantel extends javax.swing.JFrame {
 
