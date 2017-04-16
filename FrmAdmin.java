@@ -7,7 +7,7 @@ package sep;
 
 /**
  *
- * @author GermyMc
+ * @author JJ.NAVARRETE
  */
 public class FrmAdmin extends javax.swing.JFrame {
 
