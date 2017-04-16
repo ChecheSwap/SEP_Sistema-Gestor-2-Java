@@ -1,0 +1,391 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package sep;
+
+import java.awt.Point;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.util.List;
+import javax.swing.JOptionPane;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
+/**
+ *
+ * @author GermyMc
+ */
+public class FrmListaDocentes extends javax.swing.JFrame {
+
+    public static FrmListaDocentes instancia;
+
+    /**
+     * Creates new form FrmListaDocentes
+     */
+    public FrmListaDocentes() {
+        initComponents();
+        instancia = this;
+        cargarTabla();
+        jTableDocentes.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mousePressed(MouseEvent me) {
+                JTable table = (JTable) me.getSource();
+                Point p = me.getPoint();
+                int row = table.rowAtPoint(p);
+                int col = table.columnAtPoint(p);
+                if (me.getClickCount() == 2) {
+                    try {
+                        enviarDatos(row, col);
+                    } catch (MyExcepcion ex) {
+
+                    }
+                }
+            }
+
+        });
+
+    }
+
+    public void cargarTabla() {
+        BD bd = new BD();
+        DefaultTableModel model = (DefaultTableModel) jTableDocentes.getModel();
+
+        model.getDataVector().removeAllElements();
+        List<Docentes> listaDocentes = bd.cargarDocentes();
+
+        if (!listaDocentes.isEmpty()) {
+            for (Docentes d : listaDocentes) {
+                model.addRow(new Object[]{
+                    d.curp,
+                    d.estatus,
+                    d.apellidoP,
+                    d.apellidoM,
+                    d.nombre1,
+                    d.nombre2,
+                    d.sexo,
+                    d.telefono,
+                    d.municipio,
+                    d.estado,});
+            }
+            model.fireTableDataChanged();
+        } else {
+            JOptionPane.showMessageDialog(this, "No hay Docentes Registrados", "Advertencia", JOptionPane.WARNING_MESSAGE);
+        }
+
+    }
+
+    public synchronized void eliminarDocente() {
+        BD bd = new BD();
+
+        int rowsC = jTableDocentes.getRowCount();
+        int[] rows = jTableDocentes.getSelectedRows();
+
+        if (rows.length == 0) {
+            JOptionPane.showMessageDialog(this,
+                    "No ha seleccionado un docente a eliminar",
+                    "Advertencia",
+                    JOptionPane.WARNING_MESSAGE);
+        } else if (rowsC == 0) {
+            JOptionPane.showMessageDialog(this,
+                    "No hay docentes registrados",
+                    "Advertencia",
+                    JOptionPane.WARNING_MESSAGE);
+
+        } else if (rows != null) {
+            int seleccion = jTableDocentes.getSelectedRowCount();
+            if (seleccion != 0) {
+                int result = JOptionPane.showConfirmDialog(null,
+                        "¿Esta seguro que desea eliminar este docente?\nTenga en cuenta que se eliminara"
+                        + " toda información relacionada.", null, JOptionPane.YES_NO_OPTION);
+                if (result == JOptionPane.YES_OPTION) {
+                    DefaultTableModel model = (DefaultTableModel) jTableDocentes.getModel();
+
+                    int row = jTableDocentes.getSelectedRow();
+                    String curp = jTableDocentes.getValueAt(row, 0).toString();
+                    String consulta = bd.eliminarUsuarioDocente(curp);
+
+                    if (consulta.equals("Ok")) {
+                        JOptionPane.showMessageDialog(this,
+                                "Docente eliminado correctamente",
+                                "Info",
+                                JOptionPane.INFORMATION_MESSAGE);
+
+                        for (int i = rows.length - 1; i >= 0; i--) {
+                            model.removeRow(i);
+                        }
+
+                        int casillaSeleccionada = jTableDocentes.getSelectedRow();
+                        cargarTabla();
+                        if (casillaSeleccionada != 0 && casillaSeleccionada > 1) {
+                            jTableDocentes.changeSelection(casillaSeleccionada, 1, false, false);
+                        } else {
+                            jTableDocentes.changeSelection(0, 0, false, false);
+                        }
+                    } else {
+                        JOptionPane.showMessageDialog(this,
+                                "No ha sido posible eliminar al Docente",
+                                "Error",
+                                JOptionPane.ERROR_MESSAGE);
+                    }
+                }
+            }
+        }
+
+    }
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jPanel1 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTableDocentes = new javax.swing.JTable();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jButtonModificarUsuario = new javax.swing.JButton();
+        jButtonEliminarUsuario = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        jButtonAgregarUsuario = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        jLabelLogo = new javax.swing.JLabel();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Lista Docentes");
+
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Docentes"));
+
+        jTableDocentes.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "CURP", "Estatus", "Ap. Paterno", "Ap. Materno", "Nombre1", "Nombre2", "Sexo", "Telefono", "Municipio", "Estado"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTableDocentes.getTableHeader().setReorderingAllowed(false);
+        jScrollPane1.setViewportView(jTableDocentes);
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1092, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("Complementar");
+
+        jButtonModificarUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/modificar_1.png"))); // NOI18N
+        jButtonModificarUsuario.setBorderPainted(false);
+        jButtonModificarUsuario.setContentAreaFilled(false);
+        jButtonModificarUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButtonModificarUsuario.setFocusPainted(false);
+        jButtonModificarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonModificarUsuarioActionPerformed(evt);
+            }
+        });
+
+        jButtonEliminarUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/eliminar.png"))); // NOI18N
+        jButtonEliminarUsuario.setBorderPainted(false);
+        jButtonEliminarUsuario.setContentAreaFilled(false);
+        jButtonEliminarUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButtonEliminarUsuario.setFocusPainted(false);
+        jButtonEliminarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonEliminarUsuarioActionPerformed(evt);
+            }
+        });
+
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setText("Eliminar");
+
+        jButtonAgregarUsuario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/agregar.png"))); // NOI18N
+        jButtonAgregarUsuario.setBorderPainted(false);
+        jButtonAgregarUsuario.setContentAreaFilled(false);
+        jButtonAgregarUsuario.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jButtonAgregarUsuario.setFocusPainted(false);
+        jButtonAgregarUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonAgregarUsuarioActionPerformed(evt);
+            }
+        });
+
+        jLabel1.setText("Nuevo");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel1)
+                    .addComponent(jButtonAgregarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jButtonModificarUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(10, 10, 10)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jButtonEliminarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jButtonModificarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButtonEliminarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3)))
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addComponent(jButtonAgregarUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel1))
+        );
+
+        jLabelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/logoSEP.png"))); // NOI18N
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jLabelLogo)
+                .addGap(193, 193, 193)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabelLogo))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(0, 0, 0))
+        );
+
+        pack();
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void jButtonEliminarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonEliminarUsuarioActionPerformed
+        eliminarDocente();
+    }//GEN-LAST:event_jButtonEliminarUsuarioActionPerformed
+
+    private void jButtonModificarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonModificarUsuarioActionPerformed
+        int row = jTableDocentes.getSelectedRow();
+        int col = jTableDocentes.getSelectedColumn();
+
+        if (row >= 0) {
+            try {
+                enviarDatos(row, col);
+            } catch (MyExcepcion ex) {
+            }
+        } else {
+            JOptionPane.showMessageDialog(this, "Seleccione un Docente", "Advertencia", JOptionPane.WARNING_MESSAGE);
+        }
+    }//GEN-LAST:event_jButtonModificarUsuarioActionPerformed
+
+    private void jButtonAgregarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAgregarUsuarioActionPerformed
+        FrmAgregarNuevoUsuarioDesdeListaDocentes agregarUsuario = new FrmAgregarNuevoUsuarioDesdeListaDocentes();
+        agregarUsuario.setLocationRelativeTo(null);
+        agregarUsuario.setVisible(true);
+    }//GEN-LAST:event_jButtonAgregarUsuarioActionPerformed
+
+    public synchronized void enviarDatos(int row, int col) throws MyExcepcion {
+
+        String curp = jTableDocentes.getValueAt(row, 0).toString();
+        FrmAdminDocente docente = new FrmAdminDocente(curp);
+        docente.setLocationRelativeTo(null);
+        docente.setVisible(true);
+
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Windows".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(FrmListaDocentes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(FrmListaDocentes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(FrmListaDocentes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(FrmListaDocentes.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new FrmListaDocentes().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButtonAgregarUsuario;
+    private javax.swing.JButton jButtonEliminarUsuario;
+    private javax.swing.JButton jButtonModificarUsuario;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabelLogo;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTableDocentes;
+    // End of variables declaration//GEN-END:variables
+}

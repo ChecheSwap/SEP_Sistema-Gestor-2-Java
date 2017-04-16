@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Complementar Datos Asignaturas"/>
+    <Property name="type" type="java.awt.Window$Type" editor="org.netbeans.modules.form.editors.EnumEditor">
+      <Value id="POPUP"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="442" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+              <Component id="jLabelLogo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabelLogo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jTabbedPane1" min="-2" pref="369" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanelSemestre1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Semestre 1">
+                <Property name="tabTitle" type="java.lang.String" value="Semestre 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanelAsignarutra3Sem1" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra1Sem1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra2Sem1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra1Sem1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra2Sem1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra3Sem1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra1Sem1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 1"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura1Sem1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura1Sem1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura1Sem1" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem1" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem1" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura1Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura1Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura1Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura1Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura1Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura1Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura1Sem1">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura1Sem1">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura1Sem1">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra2Sem1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 2"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura2Sem1" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura2Sem1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura2Sem1" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem1" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem1" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura2Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura2Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura2Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura2Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura2Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura2Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura2Sem1">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura2Sem1">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura2Sem1">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra3Sem1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 3"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelNoAsignatura3Sem1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoAlumnosAsignatura3Sem1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoGruposAsignatura3Sem1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTextFieldAsignatura3Sem1" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                                      <Component id="jSpinnerNoGruposAsignatura3Sem1" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jSpinnerNoAlumnosAsignatura3Sem1" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura3Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura3Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura3Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura3Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura3Sem1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura3Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura3Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura3Sem1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura3Sem1">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura3Sem1">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura3Sem1">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelSemestre2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Semestre2">
+                <Property name="tabTitle" type="java.lang.String" value="Semestre2"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanelAsignarutra3Sem2" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra1Sem2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra2Sem2" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="187" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra1Sem2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra2Sem2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra3Sem2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="159" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="166" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra1Sem2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 1"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura1Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura1Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura1Sem2" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura1Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura1Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura1Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura1Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura1Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura1Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura1Sem2">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura1Sem2">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura1Sem2">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra2Sem2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 2"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura2Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura2Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura2Sem2" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura2Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura2Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura2Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura2Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura2Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura2Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura2Sem2">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura2Sem2">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura2Sem2">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra3Sem2">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 3"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelNoAsignatura3Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoAlumnosAsignatura3Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoGruposAsignatura3Sem2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jTextFieldAsignatura3Sem2" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                                      <Component id="jSpinnerNoGruposAsignatura3Sem2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jSpinnerNoAlumnosAsignatura3Sem2" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura3Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura3Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura3Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura3Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura3Sem2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura3Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura3Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura3Sem2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura3Sem2">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura3Sem2">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura3Sem2">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Guardar"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelSemestre3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Semestre 3">
+                <Property name="tabTitle" type="java.lang.String" value="Semestre 3"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanelAsignarutra3Sem3" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra1Sem3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra2Sem3" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra1Sem3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra2Sem3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra3Sem3" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra1Sem3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 1"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura1Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura1Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura1Sem3" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem3" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem3" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura1Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura1Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura1Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura1Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura1Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura1Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura1Sem3">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura1Sem3">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura1Sem3">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra2Sem3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 2"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura2Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura2Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura2Sem3" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem3" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem3" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura2Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura2Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura2Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura2Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura2Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura2Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura2Sem3">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura2Sem3">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura2Sem3">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra3Sem3">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 3"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura3Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura3Sem3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jSpinnerNoGruposAsignatura3Sem3" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jSpinnerNoAlumnosAsignatura3Sem3" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldAsignatura3Sem3" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura3Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura3Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura3Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura3Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura3Sem3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura3Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura3Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura3Sem3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura3Sem3">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura3Sem3">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura3Sem3">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelSemestre4">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Semestre 4">
+                <Property name="tabTitle" type="java.lang.String" value="Semestre 4"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanelAsignarutra3Sem4" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra1Sem4" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra2Sem4" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra1Sem4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra2Sem4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra3Sem4" pref="128" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra1Sem4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 1"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura1Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura1Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura1Sem4" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem4" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem4" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura1Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura1Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura1Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura1Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura1Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura1Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura1Sem4">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura1Sem4">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura1Sem4">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra2Sem4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 2"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura2Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura2Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura2Sem4" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem4" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem4" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura2Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura2Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura2Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura2Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura2Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura2Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura2Sem4">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura2Sem4">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura2Sem4">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra3Sem4">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 3"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelNoAsignatura3Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoAlumnosAsignatura3Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoGruposAsignatura3Sem4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jSpinnerNoGruposAsignatura3Sem4" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jSpinnerNoAlumnosAsignatura3Sem4" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldAsignatura3Sem4" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura3Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura3Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura3Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura3Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura3Sem4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura3Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura3Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura3Sem4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura3Sem4">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura3Sem4">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura3Sem4">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelSemestre5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Semestre 5">
+                <Property name="tabTitle" type="java.lang.String" value="Semestre 5"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanelAsignarutra3Sem5" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra1Sem5" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra2Sem5" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra1Sem5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra2Sem5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra3Sem5" pref="128" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra1Sem5">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 1"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura1Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura1Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura1Sem5" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem5" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem5" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura1Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura1Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura1Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura1Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura1Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura1Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura1Sem5">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura1Sem5">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura1Sem5">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra2Sem5">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 2"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura2Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura2Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura2Sem5" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem5" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem5" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura2Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura2Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura2Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura2Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura2Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura2Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura2Sem5">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura2Sem5">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura2Sem5">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra3Sem5">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 3"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelNoAsignatura3Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoAlumnosAsignatura3Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelNoGruposAsignatura3Sem5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jSpinnerNoGruposAsignatura3Sem5" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jSpinnerNoAlumnosAsignatura3Sem5" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <Component id="jTextFieldAsignatura3Sem5" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura3Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura3Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura3Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura3Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura3Sem5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura3Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura3Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura3Sem5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura3Sem5">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura3Sem5">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura3Sem5">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanelSemestre6">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Semestre6">
+                <Property name="tabTitle" type="java.lang.String" value="Semestre6"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jPanelAsignarutra3Sem6" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra1Sem6" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jPanelAsignarutra2Sem6" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra1Sem6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra2Sem6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanelAsignarutra3Sem6" pref="128" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra1Sem6">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 1"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura1Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura1Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura1Sem6" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem6" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem6" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura1Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura1Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura1Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura1Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura1Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura1Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura1Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura1Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura1Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura1Sem6">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura1Sem6">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura1Sem6">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra2Sem6">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 2"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura2Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura2Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextFieldAsignatura2Sem6" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem6" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem6" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura2Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura2Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura2Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura2Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura2Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura2Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura2Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura2Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura2Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura2Sem6">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura2Sem6">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura2Sem6">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanelAsignarutra3Sem6">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Asignatura 3"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoAlumnosAsignatura3Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelNoGruposAsignatura3Sem6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jSpinnerNoGruposAsignatura3Sem6" alignment="0" min="-2" pref="52" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jSpinnerNoAlumnosAsignatura3Sem6" min="-2" pref="52" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jTextFieldAsignatura3Sem6" alignment="0" min="-2" pref="224" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAsignatura3Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAsignatura3Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoGruposAsignatura3Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoGruposAsignatura3Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNoAlumnosAsignatura3Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jSpinnerNoAlumnosAsignatura3Sem6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabelNoAsignatura3Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Asignatura:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoGruposAsignatura3Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Grupos Atendidos:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabelNoAlumnosAsignatura3Sem6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="No. Alumnos por Grupo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextFieldAsignatura3Sem6">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoGruposAsignatura3Sem6">
+                </Component>
+                <Component class="javax.swing.JSpinner" name="jSpinnerNoAlumnosAsignatura3Sem6">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Guardar"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabelLogo">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/imagenes/logoSEP.png"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
