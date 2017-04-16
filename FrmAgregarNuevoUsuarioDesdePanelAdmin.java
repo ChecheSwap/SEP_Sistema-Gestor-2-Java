@@ -10,7 +10,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author GermyMc
+ * @author JJ.NAVARRETE
  */
 public class FrmAgregarNuevoUsuarioDesdePanelAdmin extends javax.swing.JFrame {
 
