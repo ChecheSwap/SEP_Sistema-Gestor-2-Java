@@ -7,7 +7,7 @@ package sep;
 
 /**
  *
- * @author GermyMc
+ *@author JJ.NAVARRETE
  */
 public class FrmOtraInstitucion extends javax.swing.JFrame {
 
