@@ -7,7 +7,7 @@ package sep;
 
 /**
  *
- * @author GermyMc
+ *@author JJ.NAVARRETE
  */
 public class FrmDatosPersonales extends javax.swing.JFrame {
 
