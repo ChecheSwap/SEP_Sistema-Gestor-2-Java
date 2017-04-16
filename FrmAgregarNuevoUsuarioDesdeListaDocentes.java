@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author GermyMc
+ * @author JJ.NAVARRETE
  */
 public class FrmAgregarNuevoUsuarioDesdeListaDocentes extends javax.swing.JFrame {
 
