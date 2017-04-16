@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author GermyMc
+ * @author JJ.NAVARRETE
  */
 public class FrmComplementarAsignatura extends javax.swing.JFrame {
 
